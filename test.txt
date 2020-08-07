@@ -1,0 +1,20 @@
+program factorial  :: var f1 ,f2,temp,y: int;  
+	{
+	f1:=1;
+	f2:=1;
+	temp:=1;
+	read y;	
+
+	if y=1 then {write 1;} else {if y=2 then {write 1;write 1;} else {
+write 1;
+write 1;
+while y>2 do {temp:=f2;f2:=f2+f1;f1:=temp;write f2;y:=y-1;} endwh;
+
+
+
+
+} endif;} endif;
+
+	
+
+	}

@@ -1,0 +1,9 @@
+program factorial  :: var y ,x: int;  
+	{
+	x:=1;
+	read y;	
+	while y>1 do {x:=x*y;y:=y-1;} endwh;
+	write x ;
+	
+
+	}
